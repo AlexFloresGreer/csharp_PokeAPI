@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="Content/style.css"/>
+    </head>
+    <body>
+    <div class="center">
+
+        <h1>Pokedex</h1>
+        
+        <p>Name: @ViewBag.Name</p>
+        <p>Heigh: @ViewBag.Height</p>
+        <p>Weight: @ViewBag.Weight</p>
+
+    </div>
+    </body>
+</html>
